@@ -1,0 +1,97 @@
+body{
+    background-color: #eaeee9;    
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    border-radius: 10px;
+    height: 220px;
+    margin: 20px;
+    position: relative;   
+    width: 600px;      
+}
+
+.card-group{
+    background: rgb(8, 64, 82);
+    display: flex;
+    min-height: calc(50vh - 60px);
+    padding: 3.5rem 0px;
+    justify-content: center;
+    -webkit-box-pack: center;    
+    -webkit-box-align: center;
+}
+
+.card-group div:first-child{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+}
+
+.card-group img{
+    border-radius: 10px 0px 0px 10px ;    
+    height: 220px;
+    width: 229.203px;
+}
+
+.card-group p{
+    border: none;
+    color: #eaeee9;
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-size: 26px;
+    font-weight:900;
+    height: 50px;
+    left: 50%;
+    letter-spacing: -0.6px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    transform: translate(-10%,-70%);    
+    width: 300px;
+}
+
+footer p{
+    color:#046573;
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-size: 14px;
+    font-weight:700;
+    height: 50px;
+    letter-spacing: -0.6px;
+    text-align:end;
+}
+
+.pTitle{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(60vh - 70px);
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;  
+}
+
+.pTitle h1{
+    align-items: center;
+    border: none;
+    color: rgb(8, 64, 82);
+    display: block;
+    flex-direction: column;
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-size: 2.75rem;
+    font-weight: 900;
+    justify-content: center;
+    line-height: 1.1;
+    margin: 0px;
+    padding-bottom: calc(0.40625rem - 1px);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;    
+    position: relative;
+    text-align: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    z-index: 1;   
+}
+
